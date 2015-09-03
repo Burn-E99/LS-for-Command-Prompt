@@ -4,7 +4,7 @@ This program, once set up, will allow the user to use the `ls` (List files/folde
 # Installation:
 1. Download the latest version from https://github.com/Burn-E99/LS-for-Command-Prompt/tree/master/dist or download the source latest from https://github.com/Burn-E99/LS-for-Command-Prompt/tree/master/src.
 2. If this is not the first time installing this custom command, skip to step 3.  (You will need Administrative Privalages to complete this step.)
-  1. At the base directory (usually C:\), create a empty folder with any alpha-numeric (a-z,A-Z,0-9. No special characters or spaces) name you choose.  A good name could be `customcmdline`, as the `ls` command is a custom addon to the command line.
+  1. At the base directory (usually `C:\`), create a empty folder with any alpha-numeric (a-z,A-Z,0-9. No special characters or spaces) name you choose.  A good name could be `customcmdline`, as the `ls` command is a custom addon to the command line.
   2. In the Windows 7 Start Menu or the Windows 8/8.1/10 quick search (Windows key + Q), enter in "environment variables", and click on the result labeled "Edit the system environment variables".
   3. If prompted, enter in your administrator password and click yes.
   4. Click on the button labeled "Environment Variables" located near the bottom of the window.
