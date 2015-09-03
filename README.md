@@ -15,6 +15,11 @@ This program, once set up, will allow the user to use the `ls` (List files/folde
 3. Take the files you downloaded and paste the files named `cecho.exe` and `ls.exe` (or `ls.bat` if you downloaded the src version) into the folder you created in step 2.1.
 4. You should now be able to run `ls` in command prompt (and as a bonus feature, `cecho` is now a usable command.  Visit http://www.codeproject.com/Articles/17033/Add-Colors-to-Batch-Files for information on how to use)
 
+# Upcoming Features:
+1. Ability to easily customize color scheme used by this addon.
+2. Ability to add new extension types into this addon.
+3. Minimized version (even though this is already less than 100 KB in .exe format and less than 10 KB in dev format)
+
 # Bugs
 This command line addon has been tested on Windows 8.1 x64, but should be compatible with all systems.  If you find any issues with the addon, please report an issue through Github, and I will do my best to fix the said issue.
 
