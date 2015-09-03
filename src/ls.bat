@@ -13,14 +13,16 @@ set "ARCHIVECOLOR=0C"
 set "IMAGECOLOR=0D"
 set "LINKCOLOR=0B"
 
-for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (
-	set "DEL=%%a"
-)
+for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1) do rem"') do (set "DEL=%%a")
+
+call :getdir
 
 for /f "tokens=*" %%F in ('dir /W /B /A') do (
 	set "LINECOLOR=07"
 	set "TEMPNAME=%%F"
 	set "REALNAME=%%F"
+	
+	:: start %HOMEDIR%\hi.cmd
 	
 	set "FOLDERTEST=%CD%\!REALNAME!\*"
 	
@@ -55,4 +57,9 @@ for /f "tokens=*" %%F in ('dir /W /B /A') do (
 	cecho {!LINECOLOR!} !REALNAME! {#}{\n}
 )
 
+goto :eof
+:getdir
+pushd %~dp0
+set "HOMEDIR=%CD%"
+popd
 goto :eof
