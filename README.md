@@ -15,5 +15,8 @@ This program, once set up, will allow the user to use the `ls` (List files/folde
 3. Take the files you downloaded and paste the files named `cecho.exe` and `ls.exe` (or `ls.bat` if you downloaded the src version) into the folder you created in step 2.1.
 4. You should now be able to run `ls` in command prompt (and as a bonus feature, `cecho` is now a usable command.  Visit http://www.codeproject.com/Articles/17033/Add-Colors-to-Batch-Files for information on how to use)
 
+# Bugs
+This command line addon has been tested on Windows 8.1 x64, but should be compatible with all systems.  If you find any issues with the addon, please report an issue through Github, and I will do my best to fix the said issue.
+
 # Credits:
 I would like to give credit to Thomas Polaert for creating the custom batch command `cecho`, allowing the coloration of the text being printed to the console to be done safely.  The `cecho` project can be found at: http://www.codeproject.com/Articles/17033/Add-Colors-to-Batch-Files.  The rest of this project was written by Ean M (AKA Burn-E99).
