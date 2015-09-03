@@ -1,4 +1,4 @@
-# LS-for-Command-Prompt V0.0.1
+# LS-for-Command-Prompt V1.0.0
 This program, once set up, will allow the user to use the `ls` (List files/folders) command in Windows Command Prompt
 
 # Installation:
