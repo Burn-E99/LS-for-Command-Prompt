@@ -19,6 +19,7 @@ This program, once set up, will allow the user to use the `ls` (List files/folde
 1. Ability to easily customize color scheme used by this addon.
 2. Ability to add new extension types into this addon.
 3. Minimized version (even though this is already less than 100 KB in .exe format and less than 10 KB in dev format)
+4. Any Suggestions?
 
 # Bugs
 This command line addon has been tested on Windows 8.1 x64, but should be compatible with all systems.  If you find any issues with the addon, please report an issue through Github, and I will do my best to fix the said issue.
