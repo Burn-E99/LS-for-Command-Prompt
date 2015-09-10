@@ -22,7 +22,7 @@ for /f "tokens=*" %%F in ('dir /W /B /A') do (
 	set "TEMPNAME=%%F"
 	set "REALNAME=%%F"
 	
-	:: start %HOMEDIR%\hi.cmd
+	REM start %HOMEDIR%\hi.cmd
 	
 	set "FOLDERTEST=%CD%\!REALNAME!\*"
 	
